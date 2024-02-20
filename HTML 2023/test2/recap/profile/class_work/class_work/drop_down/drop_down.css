@@ -1,0 +1,27 @@
+#drop{
+    background-color: blue;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    
+}
+
+.dropdwn_items a{
+    display: none;
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    width: 30px;
+    
+}
+.dropdwn_items{
+    background-color: aqua;
+    border-style: solid;
+    width: 90px;
+    border-style: groove;
+    position: absolute;
+}
+
+.dropdwn_items a {
+     display: block;
+}

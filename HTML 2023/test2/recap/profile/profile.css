@@ -1,0 +1,12 @@
+.xd{
+    display: flex;
+    flex-direction: row;
+    border-style: dashed
+    
+
+}
+
+#image{
+    width: 180px;
+    height: 180px;
+}

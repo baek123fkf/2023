@@ -1,0 +1,37 @@
+
+body{
+    background-color: #232527;
+}
+
+nav{
+    background-color:#191b1d; 
+    display: flex;
+}
+/* nav button, input{
+    height: 32px;
+} */
+
+nav *{
+    color: white;
+    margin-left: 35px;
+}
+
+
+.login{
+    background-color: #48494d;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+
+
+input{
+    background-color: #0a0b0b;
+    color:grey
+}
+
+

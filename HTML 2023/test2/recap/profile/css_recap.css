@@ -1,0 +1,122 @@
+/* CSS is the language we use to style an HTML document.
+CSS describes how HTML elemeents shold be displayed. */
+
+/* we use "#" to call html elem with id
+and we use "." to call html elem with class */
+/*
+what is CSS?
+
+CSS stand for Cascading style Sheets
+
+CSS describes how HTML elemets are to be
+displayd no screen, paper, or in other media
+
+CSS saves a lot of work. It can control the layout
+of multiple web pages all at once
+External stylesheets are stored in CSS files */
+
+
+h1{
+    color: green
+}
+
+h2{
+    color: brown;
+}
+
+h3{
+    color: blue;
+}
+
+h4{
+    color: blueviolet;
+}
+
+h5{
+    color: aqua;
+}
+
+h6{
+    color: aquamarine;
+}
+
+ul,ol{
+    background-color: aqua;
+    width: 5%;
+}
+
+
+#h{
+    width:250px;
+    height: 50px;
+}
+
+
+
+#search{
+    height: 30px;
+    border-radius: 5%;
+    background-color: green;
+}
+
+#email{
+    height: 20px;
+    border-radius: 5%;
+}   
+
+
+#text{
+    height: 20px;
+    border-radius: 5%;
+}
+
+#color{
+    height: 20px;
+    border-radius: 5%;
+}    
+
+.navbar{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    background-color: black;
+     display: flex; 
+     height: 50px;
+     width: 1500px;
+     font-size: 30px;
+}
+
+#li{
+    margin-left: 0%;
+
+}
+
+.navbar a:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+#Home{
+   background-color: greenyellow;
+}
+
+#about{ 
+    margin-left: 60%;
+}
+
+.navbar :hover a{
+    background-color: green;
+}
+
+#news{
+    margin-right: 10px;
+}
+
+#contact{
+    margin-right: 0px;
+}
